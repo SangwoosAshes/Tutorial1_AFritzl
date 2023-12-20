@@ -29,19 +29,19 @@ public class car : MonoBehaviour
 
     void AddSpeed()
     {
-        if(rigid.velocity.magnitude<maxspeed)
+        if (rigid.velocity.magnitude < maxspeed)
         {
             float Inputforward = Input.GetAxis("Vertical");
             rigid.AddForce(transform.forward * accelaration * Inputforward);
         }
-            
-        
+
+
     }
 
     void AddRotation()
     {
         float rotation = Input.GetAxis("Horizontal");
-        transform.Rotate(new Vector3(0, rotation*rotationSpeed, 0));
+        transform.Rotate(new Vector3(0, rotation * rotationSpeed, 0));
     }
 
     void AddVelocity()
@@ -60,6 +60,6 @@ public class car : MonoBehaviour
         }
 
         rigid.velocity = velocity;
-    
-}
+
+    }
 }

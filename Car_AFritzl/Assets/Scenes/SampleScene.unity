@@ -5793,9 +5793,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d8749aba8655248b3fae8bec258462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  accelaration: 0
-  rotationSpeed: 0
-  maxspeed: 0
+  accelaration: 20
+  rotationSpeed: 1
+  maxspeed: 10
   txtSpeed: {fileID: 1593084205}
 --- !u!33 &3276303042831043955
 MeshFilter:
