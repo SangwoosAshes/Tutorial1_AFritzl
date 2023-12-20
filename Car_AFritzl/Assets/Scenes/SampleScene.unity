@@ -461,7 +461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 664256731}
   m_Layer: 0
-  m_Name: Car
+  m_Name: Models
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -823,12 +823,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07901486, y: -0.6668096, z: 0.08719939, w: 0.735879}
-  m_LocalPosition: {x: 6.257, y: 1.692, z: -0.042}
-  m_LocalScale: {x: 1.0926, y: 1, z: 1.1817}
+  m_LocalRotation: {x: 0.117471814, y: 0.039542403, z: 0.0068884967, w: 0.99226475}
+  m_LocalPosition: {x: -0.0009477064, y: 1.6040001, z: -3.6297872}
+  m_LocalScale: {x: 1.0926, y: 1, z: 1.1816999}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2754369115162895238}
   m_LocalEulerAnglesHint: {x: 13.449, y: -84.202, z: 1.353}
 --- !u!1 &1376345607
 GameObject:
@@ -5133,6 +5133,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 963194228}
   - {fileID: 664256731}
   - {fileID: 309060566}
   m_Father: {fileID: 0}
@@ -5795,7 +5796,7 @@ MonoBehaviour:
   accelaration: 0
   rotationSpeed: 0
   maxspeed: 0
-  txtSpeed: {fileID: 0}
+  txtSpeed: {fileID: 1593084205}
 --- !u!33 &3276303042831043955
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14631,7 +14632,6 @@ MeshFilter:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 963194228}
   - {fileID: 705507995}
   - {fileID: 355810328}
   - {fileID: 2754369115162895238}
